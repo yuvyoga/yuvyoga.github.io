@@ -2,6 +2,10 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -10,6 +14,16 @@ body {
     font-weight: 900;
 }
 
+.logo {
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+}
+
+.social-img {
+    height: 35px;
+    width: 35px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
