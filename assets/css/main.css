@@ -51,6 +51,35 @@ body {
 }
 
 
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 980px) {
+    #bg1 {
+        transform: translateX(-150px);
+    }
+    #bg2 {
+        transform: translate(-535px,100px);
+    }
+    #bg3 {
+        transform: translate(-530px,130px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #bg1 {
+        transform: translateX(-150px);
+    }
+    #bg2 {
+        transform: translate(-600px,100px);
+    }
+    #bg3 {
+        transform: translate(-530px,130px);
+    }
+}
+
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
